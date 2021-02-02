@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Ordering/Scenes/Ascending2Digit.unity
+    guid: 52781bd8e8c5f324c8f4d3d4994b197e
+  - enabled: 1
+    path: Assets/Ordering/Scenes/Descending2Digit.unity
+    guid: befe0f6e55a8dc049a679f7eb5b2f06c
+  - enabled: 1
+    path: Assets/Ordering/Scenes/GreaterThan2Digit.unity
+    guid: f7ba459c5c892d640a1273a0a307591f
+  - enabled: 1
+    path: Assets/Ordering/Scenes/LessThan2Digit.unity
+    guid: bad9b03398c0a734f827a6d7a5ea059e
+  - enabled: 1
+    path: Assets/Ordering/Scenes/MakeLargest2Digit.unity
+    guid: fd5f23f1419352a4d98541d6b5c5f929
+  - enabled: 1
+    path: Assets/Ordering/Scenes/MakeSmallest2Digit.unity
+    guid: e1497833f05d7fc418fd2b576d760d91
+  - enabled: 1
+    path: Assets/Ordering/Scenes/MixAscendDesc2Digit.unity
+    guid: dcfcfa5b6a328414ea0d0354c7a9bc91
+  - enabled: 1
+    path: Assets/Ordering/Scenes/MixLessGreaterThan2Digit.unity
+    guid: eae568ca83ca0894991fdf046e5e55f1
+  - enabled: 1
+    path: Assets/Ordering/Scenes/MixMakeSmallestLargest2Digit.unity
+    guid: c4e8d816bf559a643ab71a931eae4056
+  - enabled: 1
+    path: Assets/Ordering/Scenes/MixPickLargestSmallest2Digit.unity
+    guid: 953a98801bdd2aa47b7f076fe1ea748d
+  - enabled: 1
+    path: Assets/Ordering/Scenes/PickLargest2Digit.unity
+    guid: 436a81bc4fce0954abf7ac898b42dd58
+  - enabled: 1
+    path: Assets/Ordering/Scenes/PickSmallest2Digit.unity
+    guid: 166ccf595a7a14b4d9042337ef9f948a
+  - enabled: 1
+    path: Assets/Ordering/Scenes/Range2Digit.unity
+    guid: bac343cbe1e810a47ab6a3ce4a22663e
+  - enabled: 1
+    path: Assets/Ordering/Scenes/Ascending3Digit.unity
+    guid: 09239e9a35694b9429821d32c48a4d17
+  - enabled: 1
+    path: Assets/Ordering/Scenes/Descending3Digit.unity
+    guid: d6e48883b9072fc45b0b94fae2a1000e
+  - enabled: 1
+    path: Assets/Ordering/Scenes/GreaterThan3Digit.unity
+    guid: e5d17cb0120b73e479282cdaf2acdbce
+  - enabled: 1
+    path: Assets/Ordering/Scenes/LessThan3Digit.unity
+    guid: 7723afcfdaa2ed047ae91a05a5a9e141
+  - enabled: 1
+    path: Assets/Ordering/Scenes/MakeLargest3Digit.unity
+    guid: f74fb2f2e575aa547be4f8cb1d01e4a2
+  - enabled: 1
+    path: Assets/Ordering/Scenes/MakeSmallestt3Digit.unity
+    guid: 537e7f3ba09ad1e48aa12e458134e6fa
+  - enabled: 1
+    path: Assets/Ordering/Scenes/MixAscendingDescending3Digit.unity
+    guid: cf3e6f1978b161345b148a6d518b182a
+  - enabled: 1
+    path: Assets/Ordering/Scenes/MixLessGreaterThan3Digit.unity
+    guid: cec16791ab42b8f4abb0cb7d3079d57d
+  - enabled: 1
+    path: Assets/Ordering/Scenes/MixMakeSmallestLargest3Digit.unity
+    guid: daf19ebce4944f9419bc4146cf4ff5da
+  - enabled: 1
+    path: Assets/Ordering/Scenes/MixPickLargestSmallest3Digit.unity
+    guid: 432200e214449764db7e31c27b673bd9
+  - enabled: 1
+    path: Assets/Ordering/Scenes/PickLargest3Digit.unity
+    guid: dd101b3aec15c4841b4f749bc7a4a520
+  - enabled: 1
+    path: Assets/Ordering/Scenes/PickSmallest3Digit.unity
+    guid: 4d9108ba465fcb541bf6654268269bed
+  - enabled: 1
+    path: Assets/Ordering/Scenes/Range3Digit.unity
+    guid: cfe9ff7c3598dab44903eb7b30e7badc
+  m_configObjects: {}

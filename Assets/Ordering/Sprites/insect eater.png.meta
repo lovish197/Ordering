@@ -1,0 +1,503 @@
+fileFormatVersion: 2
+guid: a9134fc0225ce7f4ebde809cea57687a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2057690727963813025
+    second: insect eater_0
+  - first:
+      213: -2624028842454316448
+    second: insect eater_1
+  - first:
+      213: -1803173553434029054
+    second: insect eater_2
+  - first:
+      213: -7111635300810420969
+    second: insect eater_3
+  - first:
+      213: -2661480219983716906
+    second: insect eater_4
+  - first:
+      213: -8943258836698291095
+    second: insect eater_5
+  - first:
+      213: -7532646102564146456
+    second: insect eater_6
+  - first:
+      213: -3762897374810473225
+    second: insect eater_7
+  - first:
+      213: -4976679152950094652
+    second: insect eater_8
+  - first:
+      213: 3971675166716642778
+    second: insect eater_9
+  - first:
+      213: -3119588264031466930
+    second: insect eater_10
+  - first:
+      213: -2190848255026961600
+    second: insect eater_11
+  - first:
+      213: -4798744255143212249
+    second: insect eater_12
+  - first:
+      213: -7681495198956572513
+    second: insect eater_13
+  - first:
+      213: 4076221761419283994
+    second: insect eater_14
+  - first:
+      213: 8015078891074040100
+    second: insect eater_15
+  - first:
+      213: 2960426193797845175
+    second: insect eater_16
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: insect eater_0
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 643
+        width: 177
+        height: 159
+      alignment: 9
+      pivot: {x: 0.4437514, y: 0.0034137461}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5b1a1e5f2d9173e0800000000000000
+      internalID: -2057690727963813025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: insect eater_1
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 642
+        width: 179
+        height: 165
+      alignment: 9
+      pivot: {x: 0.43816644, y: 0.0086758705}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06a8125aba3959bd0800000000000000
+      internalID: -2624028842454316448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: insect eater_2
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 642
+        width: 182
+        height: 170
+      alignment: 9
+      pivot: {x: 0.40421638, y: 0.008440444}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2049f2fe437d9f6e0800000000000000
+      internalID: -1803173553434029054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: insect eater_3
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 642
+        width: 179
+        height: 165
+      alignment: 9
+      pivot: {x: 0.4329834, y: 0.008833452}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71d011b7f556e4d90800000000000000
+      internalID: -7111635300810420969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: insect eater_4
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 435
+        width: 216
+        height: 158
+      alignment: 9
+      pivot: {x: 0.34037134, y: 0.0033845538}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dd542f47d5801bd0800000000000000
+      internalID: -2661480219983716906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: insect eater_5
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 435
+        width: 225
+        height: 133
+      alignment: 9
+      pivot: {x: 0.32654336, y: 0.004429638}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 964a930b87923e380800000000000000
+      internalID: -8943258836698291095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: insect eater_6
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 431
+        width: 236
+        height: 110
+      alignment: 9
+      pivot: {x: 0.31218266, y: 0.04012396}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e2fee5874aa67790800000000000000
+      internalID: -7532646102564146456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: insect eater_7
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 435
+        width: 222
+        height: 103
+      alignment: 9
+      pivot: {x: 0.3313978, y: 0.0057349345}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fcfb2836c087cbc0800000000000000
+      internalID: -3762897374810473225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: insect eater_8
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 196
+        width: 174
+        height: 177
+      alignment: 9
+      pivot: {x: 0.5058561, y: 0.0030085677}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c4515f8da84feab0800000000000000
+      internalID: -4976679152950094652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: insect eater_9
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 196
+        width: 179
+        height: 191
+      alignment: 9
+      pivot: {x: 0.57728535, y: 0.0027103124}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad5c26375893e1730800000000000000
+      internalID: 3971675166716642778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: insect eater_10
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 196
+        width: 190
+        height: 201
+      alignment: 9
+      pivot: {x: 0.59791934, y: 0.0021941531}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4a4dec800ff4b4d0800000000000000
+      internalID: -3119588264031466930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: insect eater_11
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 196
+        width: 178
+        height: 188
+      alignment: 9
+      pivot: {x: 0.41855818, y: 0.0024753327}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0436552ae1b8891e0800000000000000
+      internalID: -2190848255026961600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: insect eater_12
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 196
+        width: 212
+        height: 182
+      alignment: 9
+      pivot: {x: 0.35117844, y: 0.0025806637}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72b0e38568f676db0800000000000000
+      internalID: -4798744255143212249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: insect eater_13
+      rect:
+        serializedVersion: 2
+        x: 1135
+        y: 196
+        width: 234
+        height: 160
+      alignment: 9
+      pivot: {x: 0.31374002, y: 0.002901268}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f90335a90d8d56590800000000000000
+      internalID: -7681495198956572513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: insect eater_14
+      rect:
+        serializedVersion: 2
+        x: 1410
+        y: 196
+        width: 250
+        height: 138
+      alignment: 9
+      pivot: {x: 0.2935176, y: 0.0036969392}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1e0d136816a19830800000000000000
+      internalID: 4076221761419283994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: insect eater_15
+      rect:
+        serializedVersion: 2
+        x: 1703
+        y: 196
+        width: 265
+        height: 134
+      alignment: 9
+      pivot: {x: 0.277376, y: 0.0033765195}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 421333529c74b3f60800000000000000
+      internalID: 8015078891074040100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
