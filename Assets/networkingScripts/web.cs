@@ -1,11 +1,18 @@
 ﻿using System.Collections;
+using System;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Networking;
 using Ordering;
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;
+using System.Linq;
+
 public class web : MonoBehaviour
 {
     int gameScore;
+    public bool LoginSuccessful;
+    public string LoginStatus;
 
     private void Awake()
     {
@@ -70,7 +77,7 @@ public class web : MonoBehaviour
 
         using (UnityWebRequest www = UnityWebRequest.Post("http://localhost/OrderingGame/login.php", form))
         {
-            yield return www.SendWebRequest();
+            yield return www.Send();
 
             if (www.isNetworkError || www.isHttpError)
             {
@@ -79,6 +86,14 @@ public class web : MonoBehaviour
             else
             {
                 Debug.Log(www.downloadHandler.text);
+                LoginStatus = www.downloadHandler.text; // return the login status as per php script
+                //LoginSuccessful = true;
+                if (LoginStatus == "Login Success.")
+                {
+                    // for trail
+                    FindObjectOfType<login>().LoadScene();
+                }
+                else { FindObjectOfType<login>().FlashError(); } // later move this in login class
 
                 StartCoroutine(UpdateUserScore(FindObjectOfType<login>().userNameInput.text, gameScore)); // update score after login
             }
@@ -126,4 +141,6 @@ public class web : MonoBehaviour
             }
         }
     }
+
+    
 }
