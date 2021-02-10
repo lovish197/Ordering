@@ -151,7 +151,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentScore: 0
-  incrementScore: 10
 --- !u!4 &36810455
 Transform:
   m_ObjectHideFlags: 0
@@ -319,7 +318,7 @@ Canvas:
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
-  m_AdditionalShaderChannelsFlag: 0
+  m_AdditionalShaderChannelsFlag: 25
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
@@ -771,8 +770,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 563439784}
   m_TextComponent: {fileID: 425317571}
   m_Placeholder: {fileID: 1858560592}
-  m_ContentType: 0
-  m_InputType: 0
+  m_ContentType: 7
+  m_InputType: 2
   m_AsteriskChar: 42
   m_KeyboardType: 0
   m_LineType: 0
@@ -938,6 +937,7 @@ RectTransform:
   m_Children:
   - {fileID: 2001163178}
   - {fileID: 1243246840}
+  - {fileID: 653731156}
   m_Father: {fileID: 326995165}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1060,6 +1060,84 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 650599727}
+  m_CullTransparentMesh: 0
+--- !u!1 &653731155
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 653731156}
+  - component: {fileID: 653731158}
+  - component: {fileID: 653731157}
+  m_Layer: 5
+  m_Name: Status
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &653731156
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 653731155}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 649275327}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: -87}
+  m_SizeDelta: {x: 162.48, y: 46.6}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &653731157
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 653731155}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 16
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 1
+    m_VerticalOverflow: 1
+    m_LineSpacing: 1
+  m_Text: 
+--- !u!222 &653731158
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 653731155}
   m_CullTransparentMesh: 0
 --- !u!1 &723261356
 GameObject:
@@ -1220,7 +1298,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 986714600}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2001163181}
+        m_MethodName: Login
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &986714600
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1340,8 +1429,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 994281009}
   m_TextComponent: {fileID: 2119293243}
   m_Placeholder: {fileID: 1744924961}
-  m_ContentType: 0
-  m_InputType: 0
+  m_ContentType: 7
+  m_InputType: 2
   m_AsteriskChar: 42
   m_KeyboardType: 0
   m_LineType: 0
@@ -1493,6 +1582,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c387f73624b35d34e85c30cc1973895f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  LoginSuccessful: 0
+  LoginStatus: 
 --- !u!4 &1107202781
 Transform:
   m_ObjectHideFlags: 0
@@ -2365,8 +2456,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1718220475}
   m_TextComponent: {fileID: 250024481}
   m_Placeholder: {fileID: 1399315673}
-  m_ContentType: 0
-  m_InputType: 0
+  m_ContentType: 7
+  m_InputType: 2
   m_AsteriskChar: 42
   m_KeyboardType: 0
   m_LineType: 0
@@ -2894,6 +2985,7 @@ MonoBehaviour:
   loginButton: {fileID: 986714599}
   Sign_Up: {fileID: 2126907129}
   Registeration_Panel: {fileID: 1243246839}
+  loginStatus: {fileID: 653731157}
 --- !u!1 &2119293241
 GameObject:
   m_ObjectHideFlags: 0
