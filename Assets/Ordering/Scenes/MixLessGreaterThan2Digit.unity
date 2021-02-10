@@ -312,5 +312,10 @@ PrefabInstance:
       propertyPath: gameType
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 436781913040273479, guid: bc3d776a99bc3804fa43023405cc8e3a,
+        type: 3}
+      propertyPath: mixGameType
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bc3d776a99bc3804fa43023405cc8e3a, type: 3}

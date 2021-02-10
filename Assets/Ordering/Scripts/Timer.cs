@@ -13,6 +13,9 @@ namespace Ordering
         string currenttime;
         [HideInInspector]
         public bool GamePause;
+        public RangeForTimeComparison[] rangeForTimeComparison;
+        public float ansTimer = 10f;
+        public int incrementScore;
 
         public bool timeup;
 
@@ -39,6 +42,7 @@ namespace Ordering
         // Update is called once per frame
         void Update()
         {
+            ansTimer -= Time.deltaTime;
             if (!GamePause)
             {
                 TimerSet();
@@ -86,6 +90,30 @@ namespace Ordering
             min = tempsec / 60;
             Second = tempsec % 60;
         }
+
+        //[ContextMenu("Check Increment Score")]
+        public int incrementScoreDecider()
+        {
+            for(int i = 0; i < rangeForTimeComparison.Length; i++)
+            {
+                if (ansTimer > rangeForTimeComparison[i].from && ansTimer < rangeForTimeComparison[i].to)
+                {
+                    incrementScore = rangeForTimeComparison[i].result;
+                    return incrementScore;
+                }
+            }
+            return 0;
+        }
     }
 
+    [System.Serializable]public class RangeForTimeComparison
+    {
+        public float from, to;
+        public int result;
+        public RangeForTimeComparison(float to, float from)
+        {
+            this.to = to;
+            this.from = from;
+        }
+    }
 }

@@ -188,10 +188,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 436781912590459508, guid: bc3d776a99bc3804fa43023405cc8e3a,
+        type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: 84f88a04ecbe24645936831d9584af54,
+        type: 3}
     - target: {fileID: 436781913040273479, guid: bc3d776a99bc3804fa43023405cc8e3a,
         type: 3}
       propertyPath: numerOfDigit
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 436781913040273479, guid: bc3d776a99bc3804fa43023405cc8e3a,
+        type: 3}
+      propertyPath: gameType
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bc3d776a99bc3804fa43023405cc8e3a, type: 3}

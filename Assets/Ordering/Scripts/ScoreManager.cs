@@ -8,7 +8,6 @@ namespace Ordering
     {
         public static ScoreManager instance;
         public int currentScore;
-        public int incrementScore;
         void OnEnable()
         {
             UserAnswer.OnGiveCorrectAnswer += Correct_Answer;
@@ -20,6 +19,7 @@ namespace Ordering
         private void Awake()
         {
             instance = this;
+            // code here to get the current score from database with respect to the logged in user 
         }
 
         public int GetCurrentScore()
@@ -35,7 +35,10 @@ namespace Ordering
 
         void Correct_Answer()
         {
-            IncrementCurrentScore(incrementScore);
+            IncrementCurrentScore(Timer.instance.incrementScoreDecider()); // return increment score as per time
+            Timer.instance.ansTimer = 10f;
+
+            // for trial purpose
         }
 
 

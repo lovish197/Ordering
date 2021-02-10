@@ -117,11 +117,13 @@ namespace Ordering
         public void GameOver()
         { if (Game_Over_Panel != null)
                 Game_Over_Panel.SetActive(true);
+            StartCoroutine(main.Instance.Web.UpdateUserScore(login.UserName, ScoreManager.instance.GetCurrentScore())); // update the score to database
         }
 
         public void PlayerWon()
         { if (WonPanel != null)
                 WonPanel.SetActive(true);
+            StartCoroutine(main.Instance.Web.UpdateUserScore(login.UserName, ScoreManager.instance.GetCurrentScore())); // update the score to database
 
             if (AchievementData.instance != null)
                 AchievementData.instance.InsertAchievementOnLevelWin();
