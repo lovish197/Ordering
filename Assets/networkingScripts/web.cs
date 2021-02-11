@@ -13,11 +13,6 @@ public class web : MonoBehaviour
     int gameScore;
     public bool LoginSuccessful;
     public string LoginStatus;
-
-    private void Awake()
-    {
-        //gameScore = ScoreManager.instance.currentScore;
-    }
     // Start is called before the first frame update
     void Start()
     {
@@ -91,7 +86,7 @@ public class web : MonoBehaviour
                 if (LoginStatus == "Login Success.")
                 {
                     // for trail
-                    FindObjectOfType<login>().LoadScene();
+                    login.instance.loadSceneDelegate?.Invoke(); // load scene will be called
                 }
                 else { FindObjectOfType<login>().FlashError(); } // later move this in login class
 
@@ -117,6 +112,12 @@ public class web : MonoBehaviour
             else
             {
                 Debug.Log(www.downloadHandler.text);
+                string RegistrationStatus = www.downloadHandler.text;
+
+                if(RegistrationStatus == "New Record Created Successfully")
+                {
+                    login.instance.loadSceneDelegate?.Invoke();
+                }
             }
         }
     }
@@ -141,6 +142,7 @@ public class web : MonoBehaviour
             }
         }
     }
-
     
+
+
 }

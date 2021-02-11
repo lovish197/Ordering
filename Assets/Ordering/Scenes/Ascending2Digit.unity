@@ -121,6 +121,40 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &19003297 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6949017117244898765, guid: bc3d776a99bc3804fa43023405cc8e3a,
+    type: 3}
+  m_PrefabInstance: {fileID: 1688923204}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &19003299
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 19003297}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1351f3c998cc0d148b543d0f8e0c0127, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  HighScoreCreator: {fileID: 731274505}
+  HighScoreTemplate: {fileID: 789992336}
+--- !u!114 &19003300
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 19003297}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c7e59432ca33a54ab4f6beee8399c3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  uservariablesCollection: []
+  Container: {fileID: 731274505}
 --- !u!1001 &219087115
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -240,6 +274,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 44b65fb58723a6a4eb2e5553543a5ae5, type: 3}
+--- !u!224 &731274505 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 4077939260275034297, guid: bc3d776a99bc3804fa43023405cc8e3a,
+    type: 3}
+  m_PrefabInstance: {fileID: 1688923204}
+  m_PrefabAsset: {fileID: 0}
+--- !u!224 &789992336 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 1834898269505573711, guid: bc3d776a99bc3804fa43023405cc8e3a,
+    type: 3}
+  m_PrefabInstance: {fileID: 1688923204}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1688923204
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -313,5 +359,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 12800000, guid: 84f88a04ecbe24645936831d9584af54,
         type: 3}
+    - target: {fileID: 7425702835034383407, guid: bc3d776a99bc3804fa43023405cc8e3a,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 10.099976
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bc3d776a99bc3804fa43023405cc8e3a, type: 3}

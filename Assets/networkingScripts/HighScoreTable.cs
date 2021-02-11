@@ -9,11 +9,12 @@ public class HighScoreTable : MonoBehaviour
 
     private void Awake()
     {
-        HighScoreTemplate.gameObject.SetActive(false);
+        HighScoreTemplate.gameObject.SetActive(false); // not active to avoid over lapping and
+                                                       // necessary in canvas because of reference 
 
-        float templateHeight = 20f;
+        float templateHeight = 40f;
 
-        for(int i = 0; i < 10; i++)
+        for(int i = 0; i < 4; i++)
         {
             Transform entryTransform = Instantiate(HighScoreTemplate, HighScoreCreator);
             RectTransform entryRectTransform = entryTransform.GetComponent<RectTransform>();

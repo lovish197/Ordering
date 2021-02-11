@@ -6,6 +6,10 @@ using UnityEngine.SceneManagement;
 
 public class login : MonoBehaviour
 {
+    public static login instance;
+
+    public delegate void LoadSceneDelegate();
+    public LoadSceneDelegate loadSceneDelegate;
     public InputField userNameInput;
     public InputField passwordInput;
     public Button loginButton, Sign_Up;
@@ -14,6 +18,11 @@ public class login : MonoBehaviour
 
     public Text loginStatus;
 
+    private void Awake()
+    {
+        instance = this;
+        loadSceneDelegate += LoadScene;
+    }
     // Start is called before the first frame update 
     void Start()
     {
