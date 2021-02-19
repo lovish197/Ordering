@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using Photon.Pun;
+using System;
 
 public class login : MonoBehaviour
 {
@@ -35,6 +37,7 @@ public class login : MonoBehaviour
         StartCoroutine(main.Instance.Web.Login(userNameInput.text, passwordInput.text));
         UserName = userNameInput.text; // referenece of user loggedin for further use
         loginStatus.text = main.Instance.Web.LoginStatus; // retuen and print the login status on canvas
+        SavePlayerInfo(UserName);
         //Debug.LogWarning("login status" + main.Instance.Web.LoginStatus);
         //if (main.Instance.Web.LoginSuccessful)
         //    {
@@ -44,6 +47,14 @@ public class login : MonoBehaviour
         //    {
         //        loginStatus.text = "Username or Password is incorrect, try again";  // flash if login is failed
         //    }
+    }
+
+    private void SavePlayerInfo(string userName)
+    {
+        PhotonNetwork.NickName = userName;
+
+        Debug.Log("Photon newteork nick name : " + PhotonNetwork.NickName);
+        // might need to add player prefs to save the nickname to the system.
     }
 
     public void LoadScene()
