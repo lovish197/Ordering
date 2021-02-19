@@ -54,7 +54,7 @@ public class NetworkControllerDiffApproach : MonoBehaviourPunCallbacks
         CreateTheRoom(RoomName.text);
     }
 
-    /*public override void OnJoinedRoom()
+    public override void OnJoinedRoom()
     {
         Debug.Log(" joined in " + PhotonNetwork.CurrentRoom.Name + " Room");
         int playerCount;
@@ -68,7 +68,7 @@ public class NetworkControllerDiffApproach : MonoBehaviourPunCallbacks
             Debug.Log(" all opponenets found, match is ready  to begin");
         }
     }
-*/
+
     public override void OnPlayerEnteredRoom(Player newPlayer)
     {
         if(PhotonNetwork.CurrentRoom.PlayerCount == maxPlayersPerRoom)
