@@ -152,12 +152,15 @@ namespace Ordering
         }
         public void Correct_Answer()
         {
-         
-            if (Correct_Answer_Time != null)
+            //FOR NOW WE DONT NEED TO SHOW THE TIEM INCREMENTED ON RIGHT ANS IF NEEDED UNCOMMENT THE BELOW IF STATEMENT
+
+            /*if (Correct_Answer_Time != null)
             {
                 Correct_Answer_Time.SetActive(false);
                 Correct_Answer_Time.SetActive(true);
-            }
+            }*/
+
+
             //if (RightAnswer_TickMark != null)
             //{
             //    RightAnswer_TickMark.SetActive(false);

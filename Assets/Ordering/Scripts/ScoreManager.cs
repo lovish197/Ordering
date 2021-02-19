@@ -8,13 +8,16 @@ namespace Ordering
     {
         public static ScoreManager instance;
         public int currentScore;
+        [SerializeField] int Decrement_Score;
         void OnEnable()
         {
             UserAnswer.OnGiveCorrectAnswer += Correct_Answer;
+            UserAnswer.OnGiveWrongAnswer += Wrong_Answer;
         }
         void OnDisable()
         {
             UserAnswer.OnGiveCorrectAnswer -= Correct_Answer;
+            UserAnswer.OnGiveWrongAnswer -= Wrong_Answer;
         }
         private void Awake()
         {
@@ -33,12 +36,23 @@ namespace Ordering
 
         }
 
+        public void DecrementCurrentScore(int score_)
+        {
+            currentScore -= score_;
+
+        }
+
         void Correct_Answer()
         {
             IncrementCurrentScore(Timer.instance.incrementScoreDecider()); // return increment score as per time
             Timer.instance.ansTimer = 10f;
 
             // for trial purpose
+        }
+        
+        void Wrong_Answer()
+        {
+            DecrementCurrentScore(Decrement_Score);
         }
 
 

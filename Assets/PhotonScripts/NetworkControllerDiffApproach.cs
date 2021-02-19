@@ -10,7 +10,7 @@ public class NetworkControllerDiffApproach : MonoBehaviourPunCallbacks
 {
     bool IsConnecting;
     public TMP_InputField RoomName;
-    const int maxPlayersPerRoom = 4;
+    const int maxPlayersPerRoom = 2;
     public Button CreateRoom, _JoinRoom;
     private void Awake()
     {
@@ -27,15 +27,15 @@ public class NetworkControllerDiffApproach : MonoBehaviourPunCallbacks
         PhotonNetwork.CreateRoom(RoomName, new RoomOptions { MaxPlayers = maxPlayersPerRoom }); // tis will create a room for us witha specific name
                                                                                                 // if wants a room with random name just applu null at the place of room name
     }
-    public void JoinRoom(string RoomName)
+    /*public void JoinRoom(string RoomName)
     {
         Debug.Log("Room manually create hua hai");
         PhotonNetwork.JoinRoom(RoomName);
-    }
+    }*/
     public override void OnConnectedToMaster()
     {
         CreateRoom.onClick.AddListener(() => { CreateTheRoom(RoomName.text); }); // create the room when button is pressed
-        _JoinRoom.onClick.AddListener(() => { JoinRoom(RoomName.text); });
+        //_JoinRoom.onClick.AddListener(() => { JoinRoom(RoomName.text); });
     }
     public override void OnDisconnected(DisconnectCause cause)
     {

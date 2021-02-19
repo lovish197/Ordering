@@ -5565,8 +5565,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 192dd01750b05c843bf980dc959bc5c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  min: 1
-  Second: 15
+  min: 5
+  Second: 0
   currenttime: 
   GamePause: 0
   rangeForTimeComparison:
@@ -6123,6 +6123,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentScore: 0
+  Decrement_Score: 3
 --- !u!1 &436781912823597953
 GameObject:
   m_ObjectHideFlags: 0

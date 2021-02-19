@@ -85,10 +85,12 @@ namespace Ordering
 
         public void IncreaseTimer()
         {
-            int timeincrease = 5;
+            // FOR NOW WE DONT NEED TO INCREASE TIME IF NEEDED JUST DO UNCOMMENT THE CODE BELOW
+
+            /*int timeincrease = 5;
             int tempsec = (int)((min * 60) + Second) + timeincrease;
             min = tempsec / 60;
-            Second = tempsec % 60;
+            Second = tempsec % 60;*/
         }
 
         //[ContextMenu("Check Increment Score")]
