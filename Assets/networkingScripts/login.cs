@@ -59,7 +59,7 @@ public class login : MonoBehaviour
 
     public void LoadScene()
     {
-        SceneManager.LoadScene("Ascending2Digit");  // only execute is login is successful
+        SceneManager.LoadScene("Photon Test");  // only execute is login is successful
     }
 
     public void FlashError()

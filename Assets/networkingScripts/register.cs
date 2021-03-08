@@ -26,10 +26,4 @@ public class register : MonoBehaviour
             Debug.Log("passwords dont match");
         }
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
